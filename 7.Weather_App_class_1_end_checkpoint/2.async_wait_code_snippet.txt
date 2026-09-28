@@ -1,0 +1,32 @@
+// goes before HomePage build function:
+
+
+  Future<void> testAsync() async {
+    print('1. Starting the task');
+
+    await Future.delayed(
+      Duration(seconds: 3),
+    );
+
+    print('3. Task completed');
+  }
+  
+  
+
+/// Goes after Homepage build function for the 'Check my weather' button; Testing Async function 
+
+
+            ElevatedButton(
+              onPressed: ()
+            async {
+              // print('button pressed');
+              // Navigator.push(
+              //     context,
+              //     MaterialPageRoute(builder: (context) => WeatherPage(),
+              //     ),
+              // );
+              await testAsync();
+              print('2. Button callback continues');
+            },
+              child: Text('Check my Weather'),
+            ),

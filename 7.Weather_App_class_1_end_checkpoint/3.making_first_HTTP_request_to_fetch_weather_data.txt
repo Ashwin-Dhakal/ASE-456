@@ -1,0 +1,44 @@
+//Inside the existing WeatherPage class, before its build() method, add the following function:
+
+
+Future<void> fetchWeather() async {
+  final url = Uri.https(
+    'api.openweathermap.org',
+    '/data/2.5/weather',
+    {
+      'lat': '39.1031',
+      'lon': '-84.5120',
+      'appid': openWeatherApiKey,
+      'units': 'imperial',
+    },
+  );
+
+  final response = await http.get(url);
+
+  debugPrint('Status: ${response.statusCode}');
+  debugPrint('Response: ${response.body}');
+}
+
+
+//For now, add a second button to the Weather page above the existing Back to Home button:
+
+
+ElevatedButton(
+  onPressed: () {
+    fetchWeather();
+  },
+  child: const Text('Load Live Weather'),
+),
+
+const SizedBox(height: 20),
+
+
+
+
+////////safe way to use API keys:
+const openWeatherApiKey =
+    String.fromEnvironment('OPENWEATHER_API_KEY');
+
+
+// For Android, also open android/app/src/main/AndroidManifest.xml and verify that internet permission is declared directly inside the manifest element, outside application:
+//<uses-permission android:name="android.permission.INTERNET" />
