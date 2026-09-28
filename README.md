@@ -23,3 +23,7 @@ Learning the concept of a stateless widget.
 **App 5: Dice Rolling App**
 
 Learning functions and stateful widgets through a dice rolling app.
+
+**App 6: Music App**
+
+Learning to use Flutter packages and GestureDetector, and understanding the concepts of Column, Expanded, and functions.
