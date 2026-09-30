@@ -27,3 +27,7 @@ Learning functions and stateful widgets through a dice rolling app.
 **App 6: Music App**
 
 Learning to use Flutter packages and GestureDetector, and understanding the concepts of Column, Expanded, and functions.
+
+**App 7: Weather App**
+
+Learning to use Geolocator for accessing location, Networking with HTTP, making API calls, Exception Handling, Asynchronous Programming, JSON PARSING.
