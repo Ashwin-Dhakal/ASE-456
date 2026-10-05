@@ -31,3 +31,7 @@ Learning to use Flutter packages and GestureDetector, and understanding the conc
 **App 7: Multiscreen Navigation App**
 
 Learning multiscreen Navigation and routes.
+
+**App 8: Geolocator App**
+
+Learning to acces location of the device and setting permission.
