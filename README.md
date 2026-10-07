@@ -35,3 +35,7 @@ Learning multiscreen Navigation and routes.
 **App 8: Geolocator App**
 
 Learning to acces location of the device and setting permission.
+
+**App 9: Getting Weather Data App**
+
+Learning HTTP to access OpenWeatherMap through API for weather app.
