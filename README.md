@@ -40,6 +40,6 @@ Learning to acces location of the device and setting permission.
 
 Learning HTTP to access OpenWeatherMap through API for weather app.
 
-**App 10: Getting Weather Data App**
+**App 10: App with loading page**
 
 Learning to design loading screen while app/page/data loads in the background.
