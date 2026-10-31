@@ -46,4 +46,4 @@ Learning to design loading screen while app/page/data loads in the background.
 
 **App 11: Learning Asynchronous Programming**
 
-Learning to Asynchronous Programming.
+Learning Asynchronous Programming.
