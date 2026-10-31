@@ -43,3 +43,7 @@ Learning HTTP to access OpenWeatherMap through API for weather app.
 **App 10: App with loading page**
 
 Learning to design loading screen while app/page/data loads in the background.
+
+**App 11: Learning Asynchronous Programming**
+
+Learning to Asynchronous Programming.
