@@ -48,7 +48,7 @@ Learning to design loading screen while app/page/data loads in the background.
 
 Learning Asynchronous Programming.
 
-**Codebase 12: Learning Obnect Oriented Programming Concepts**
+**Codebase 12: Learning Object Oriented Programming Concepts**
 
 Learning object oriented programming concepts (class, objects, Inheritance, Polymorphism, Abstration, Encapsulation).
 
