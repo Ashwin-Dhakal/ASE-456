@@ -1,10 +1,10 @@
 
 class Note {
   int? _id; // making it nullable; A new note can exist with no id
-  String _title;
-  String _description;
-  String _date;
-  int  _priority;
+  String _title = '';
+  String _description = '';
+  String _date = '';
+  int _priority = 1;
 
   Note(this._title, this._date, this._priority, [this._description = '']);
   Note.withId(this._id, this._title, this._date, this._priority, [this._description = '']);
@@ -55,7 +55,8 @@ class Note {
   }
 
   //extract note object from a Map object
-  Note.fromMapObject (Map <String, dynamic> map){
+  // we initialized empty values in the begining to solve the issue: Non-nullable instance field '_date' and others must be initialized.
+  Note.fromMapObject(Map <String, dynamic> map){
     this._id = map['id'];
     this._title = map['title'];
     this._description = map['description'];
