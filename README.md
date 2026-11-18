@@ -55,3 +55,7 @@ Learning object oriented programming concepts (class, objects, Inheritance, Poly
 **App 13: Note Keeping App**
 
 Laerning UI [Multiscreen ListTile, ListView, DropDown, Input forms], CRUD Operations in SQLite.
+
+**App 14: Cloud App**
+
+Laerning UI [Routes, Animations], Registartion, Authentication, Data storage in Cloud using Firebase Firestore.
